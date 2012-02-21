@@ -26,8 +26,8 @@ If you're running OSX, consider installing the developer tools.
 !+ then the latest Lion Xcode pakage.
 
 ++++ DARWIN on ARM / IOS ++++
-Deploy on your ARM7+ device with `dpkg -i nodedarwin.deb`.
-Works on iDevices 4th Gen (+).
+Deploy on your ARM7+ device with dpkg -i tools/nodedarwin.deb.
+Works on iDevices 4th Gen (+), the Darwin ARM7 NodeJS image locates in tools/
 
 ++++ LINUX GENERIC X86_64 ++++
 Obtain the execuables from `http://api.cld.me/EOwT/download/nodejs-0.6.11-1-x86_64.pkg.tar`.
