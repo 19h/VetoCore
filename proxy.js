@@ -123,7 +123,7 @@ function action_proxy(a, b, c) {
         util.log("Proxying to " + c);
         var e = 1 == b.httpVersionMajor && 1 > b.httpVersionMinor || 1 > b.httpVersionMajor,
                 d = b.headers;
-        //config.add_proxy_header && (d["X-Forwarded-For"] = void 0 !== d["X-Forwarded-For"] ? b.connection.remoteAddress + ", " + d["X-Forwarded-For"] : b.connection.remoteAddress);
+        config.add_proxy_header && (d["X-Forwarded-For"] = void 0 !== d["X-Forwarded-For"] ? b.connection.remoteAddress + ", " + d["X-Forwarded-For"] : b.connection.remoteAddress);
         var d = http.createClient(action.port, action.host),
                 g = d.request(b.method, b.url, b.headers);
         d.on("error", function (h) {

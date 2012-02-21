@@ -49,9 +49,7 @@ If you want to deploy plugins, put them into
 
     $ cd plugins
 
-There's also an ip whitelist access controller. As long as no ip is explicitly denied,
-all will be allowed. If you need a specic access list just echo it to
-'allow_ip_list' file:
+There's also an ip whitelist access controller. As long as no ip is explicitly denied, all will be allowed. If you need a specic access list just echo it to 'allow_ip_list' file:
 
     $ echo '1.2.3.4' >> config/allow_ip_list
 
