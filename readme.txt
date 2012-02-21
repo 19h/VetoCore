@@ -10,6 +10,11 @@ makes you remember where to update, when soon needed or wanted. :)
 VetoCore currently is maintained by Kenan Sulayman, et al. and
 IntellectualCommons inc. as an internal middleware. 
 
+
+(c) Kenan Sulayman (Kenan@Sulayman.org)
+
++ Usage rights as above mentioned, yet we like credit.
+
 ------------------------------------------------------------------------------
 
 --- LINUX & OSX ---
